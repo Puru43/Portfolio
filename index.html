@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.js">
+    <link rel="stylesheet" href="resume.html">
+    <link rel="stylesheet" href="aboutMe.html">
+    <link rel="stylesheet" href="contact.html">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+               <a href="index.html">Puru Ravi Vansh Portfolio</a> 
+            </div>
+            <div class="mid">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="aboutMe.html">About Me</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <a href="https://www.linkedin.com/in/puru-ravi-vansh-49a988217/" target="_blank">
+                     <img src="images/linkedin-logo.png" alt="">
+                </a>
+                <a  href="#">
+                    <img src="images/github-logo.png" alt="">
+                </a> 
+            </div> 
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="color">Puru Ravi Vansh</span>
+                <div>and I am passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="images/my-pic.jpeg" alt="my photo">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="color">What skills I have so far</span>
+            <h1>Experience</h1>
+            <div class="box">
+                
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+ <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', '&amp; Arduino Developer .'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
